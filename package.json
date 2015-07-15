@@ -1,7 +1,7 @@
 {
-  "name": "serialport",
+  "name": "serialport-electron",
   "version": "1.7.4",
-  "description": "Welcome your robotic javascript overlords. Better yet, program them!",
+  "description": "Temporary fork to support Electron (to be deprecated)",
   "author": {
     "name": "Chris Williams",
     "email": "voodootikigod@gmail.com",
@@ -17,7 +17,7 @@
   "main": "./serialport",
   "repository": {
     "type": "git",
-    "url": "git://github.com/voodootikigod/node-serialport.git"
+    "url": "git@github.com:ddm/node-serialport.git"
   },
   "maintainers": [
     {
@@ -46,7 +46,7 @@
     "bindings": "1.2.1",
     "debug": "^2.1.1",
     "nan": "~1.8.4",
-    "node-pre-gyp": "0.6.x",
+    "node-gyp": "^2.0.2",
     "optimist": "~0.6.1",
     "sf": "0.1.7"
   },
@@ -72,7 +72,7 @@
     "serialportterm": "./bin/serialportTerminal.js"
   },
   "scripts": {
-    "install": "node-pre-gyp install --fallback-to-build",
+    "install": "node-gyp rebuild --target=0.29.2 --dist-url=https://atom.io/download/atom-shell",
     "test": "grunt --verbose"
   }
 }
