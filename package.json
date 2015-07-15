@@ -1,6 +1,6 @@
 {
   "name": "serialport-electron",
-  "version": "1.7.4-temp",
+  "version": "1.7.4-electron-0.29.2",
   "description": "Temporary fork to support Electron (to be deprecated)",
   "author": {
     "name": "Chris Williams",
