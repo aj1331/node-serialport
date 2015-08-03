@@ -1,6 +1,6 @@
 {
   "name": "serialport-electron",
-  "version": "1.7.4-electron-0.30.0",
+  "version": "1.7.4-electron-0.30.1",
   "description": "Temporary fork to support Electron (to be deprecated)",
   "author": {
     "name": "Chris Williams",
@@ -69,7 +69,7 @@
     "serialportterm": "./bin/serialportTerminal.js"
   },
   "scripts": {
-    "install": "node-gyp rebuild --target=0.30.0 --dist-url=https://atom.io/download/atom-shell",
+    "install": "node-gyp rebuild --target=0.30.1 --dist-url=https://atom.io/download/atom-shell",
     "test": "grunt --verbose"
   }
 }
